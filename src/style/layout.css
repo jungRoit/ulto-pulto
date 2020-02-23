@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  flex: 1;
+}
+
+.body {
+  flex: 3;
+}
+
+.footer {
+  flex: 1;
+}
