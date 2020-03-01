@@ -2,7 +2,7 @@ import React from 'react';
 import '../../style/index';
 import Navbar from '../../component/Navbar/Navbar';
 
-import {logo, mainImage} from '../../constants/images';
+import {logo, mainImage, coverImage} from '../../constants/images';
 
 const Dashboard = props => (
   <div className="container">
@@ -24,15 +24,27 @@ const Dashboard = props => (
     <div className="body">
       <div className="body-left">
         <div className="main-image-wrapper">
-          <img src={mainImage} className="main-image" />
+          <img src={coverImage} className="main-image" />
         </div>
       </div>
       <div className="body-right">
+        <div className="content-header">
+          <h1 className="content-title">Welcome to ULTO PULTO</h1>
+        </div>
+        <div className="content-body">
+          <p className="content-p">
 
+          </p>
+        </div>
       </div>
     </div>
     <div className="footer">
-      <h1>footer</h1>
+      <div className="footer-body">
+          <div className="footer-body-title-wrapper">
+          <h1 className="content-title">Listen Now</h1>
+
+          </div>
+      </div>
     </div>
   </div>
 );

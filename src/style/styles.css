@@ -10,8 +10,42 @@
 .main-image {
   height: 100%;
   width: 100%;
+  border-radius: 5px;
+
 }
 
 .main-image-wrapper {
   flex: 1;
+}
+
+/* content */
+.content {
+
+}
+
+.content-header {
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-body {
+  display: flex;
+  flex:4;
+
+}
+
+.content-title {
+  font-weight: lighter;
+  font-style: normal;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-body-title-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
