@@ -20,10 +20,21 @@
 }
 
 .body {
-  flex: 5;
-  background: green;
+  display: flex;
+  flex: 6;
+  padding: 24px;
+  flex-direction: row;
 
 }
+
+.body-left {
+  flex: 1;
+}
+
+.body-right {
+  flex:1;
+}
+
 
 .footer {
   flex: 4;

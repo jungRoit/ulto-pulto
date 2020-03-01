@@ -6,3 +6,12 @@
 .logo-wrapper {
   padding-left: 24px;
 }
+
+.main-image {
+  height: 100%;
+  width: 100%;
+}
+
+.main-image-wrapper {
+  flex: 1;
+}
