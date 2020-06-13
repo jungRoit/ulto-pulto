@@ -12,9 +12,9 @@ export default class Navbar extends React.Component {
         <ul className='nav-list'>
           {this.props.navList.map(item => {
             return (
-              <a href='#' onClick={() => {this.props.onClick(item)}}>
+              <button className="navbar-link" onClick={() => {this.props.onClick(item)}}>
                 <li className='nav-item'>{item}</li>
-              </a>
+              </button>
             );
           })}
         </ul>

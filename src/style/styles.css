@@ -55,13 +55,19 @@
   font-family: Lexend Tera;
 }
 
-.logo-wrapper a {
+.logo-wrapper .logo-link {
   text-decoration: none;
 }
 
-.logo-wrapper a :hover {
+.logo-wrapper .logo-link :hover {
+  cursor: pointer;
   color: #000020;
   font-size: 25px;
+}
+
+.logo-link {
+  background-color: white;
+  border: none
 }
 
 

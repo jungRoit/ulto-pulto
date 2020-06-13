@@ -15,9 +15,9 @@ const Dashboard = (props) => (
     <div className="header">
       <div className="header-left">
         <div className="logo-wrapper">
-          <a href={'#'} onClick={navigate('ROOT')}>
+          <button className="logo-link" onClick={navigate('ROOT')}>
             <h1 className="logo-text main-title">ULTO PULTO</h1>
-          </a>
+          </button>
         </div>
       </div>
       <div className="header-right">
@@ -30,7 +30,7 @@ const Dashboard = (props) => (
     <div className="body">
       <div className="body-left">
         <div className="main-image-wrapper">
-          <img src={mainImage} className="main-image" />
+          <img src={mainImage} className="main-image"  alt="cover"/>
         </div>
       </div>
       <div className="body-right">
@@ -69,17 +69,17 @@ const Dashboard = (props) => (
         <div className="social-wrapper">
           <div className="social-icon-wrapper">
             <a href="https://www.facebook.com/ultopulto1/">
-              <img src={facebook} className="social-icon" />
+              <img src={facebook} className="social-icon" alt="facebook link" />
             </a>
           </div>
           <div className="social-icon-wrapper">
             <a href="https://www.instagram.com/ultopulto3/?hl=en">
-            <img src={instagram} className="social-icon" />
+            <img src={instagram} className="social-icon" alt="instagram link" />
             </a>
           </div>
           <div className="social-icon-wrapper">
             <a href="https://www.youtube.com/channel/UCzcEjVt3DHGUcb0zvyERUnw" >
-            <img src={youtube} className="social-icon" />
+            <img src={youtube} className="social-icon" alt="youtube link" />
             </a>
           </div>
         </div>
