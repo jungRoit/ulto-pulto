@@ -1,6 +1,7 @@
 .navbar {
   display: flex;
   flex: 1;
+  height: 70px;
 }
 
 .nav-list {

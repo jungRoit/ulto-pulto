@@ -44,8 +44,43 @@
   padding: 0;
 }
 
+.welcome-text {
+  font-size: 48px;
+  font-family: Parisienne;
+}
+
+.main-title {
+  font-size: 24px;
+}
+
+.logo-text {
+  color: #000000;
+  font-family: Lexend Tera;
+}
+
+.logo-wrapper a {
+  text-decoration: none;
+}
+
+.logo-wrapper a :hover {
+  color: #000020;
+  font-size: 25px;
+}
+
+
 .footer-body-title-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-wrapper {
+  margin-left: 5px;
+  margin-right: 5px;
 }
