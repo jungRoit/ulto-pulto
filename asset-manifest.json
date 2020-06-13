@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ulto-pulto/static/css/main.84336b6e.chunk.css",
+    "main.js": "/ulto-pulto/static/js/main.00944832.chunk.js",
+    "main.js.map": "/ulto-pulto/static/js/main.00944832.chunk.js.map",
+    "runtime-main.js": "/ulto-pulto/static/js/runtime-main.646ab136.js",
+    "runtime-main.js.map": "/ulto-pulto/static/js/runtime-main.646ab136.js.map",
+    "static/js/2.07ee4567.chunk.js": "/ulto-pulto/static/js/2.07ee4567.chunk.js",
+    "static/js/2.07ee4567.chunk.js.map": "/ulto-pulto/static/js/2.07ee4567.chunk.js.map",
+    "index.html": "/ulto-pulto/index.html",
+    "precache-manifest.51629fce11d1c5a8eb7d97dd3fc0b009.js": "/ulto-pulto/precache-manifest.51629fce11d1c5a8eb7d97dd3fc0b009.js",
+    "service-worker.js": "/ulto-pulto/service-worker.js",
+    "static/css/main.84336b6e.chunk.css.map": "/ulto-pulto/static/css/main.84336b6e.chunk.css.map",
+    "static/media/layout.css": "/ulto-pulto/static/media/border2.fc86bbed.png",
+    "static/media/cover-1.jpg": "/ulto-pulto/static/media/cover-1.36f9b2a1.jpg",
+    "static/media/styles.css": "/ulto-pulto/static/media/golden.a695901b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.646ab136.js",
+    "static/js/2.07ee4567.chunk.js",
+    "static/css/main.84336b6e.chunk.css",
+    "static/js/main.00944832.chunk.js"
+  ]
+}
