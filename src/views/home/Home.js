@@ -2,7 +2,7 @@ import React from 'react';
 import '../../style/index';
 import Navbar from '../../component/Navbar/Navbar';
 
-import { logo, mainImage, coverImage } from '../../constants/images';
+import { mainImage } from '../../constants/images';
 import { FaSpotify, FaApple, FaAmazon } from 'react-icons/fa';
 
 const Dashboard = (props) => (
