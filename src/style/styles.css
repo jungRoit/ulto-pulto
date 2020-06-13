@@ -105,3 +105,25 @@
   color: #b09945;
   font-style: italic;
 }
+
+.footer-content {
+  padding-right: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.social-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-icon-wrapper {
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+}
+
+.social-icon {
+  height: 100%;
+  width: 100%;
+}

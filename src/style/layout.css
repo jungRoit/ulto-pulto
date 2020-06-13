@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  
 }
 
 .header {
@@ -24,7 +24,7 @@
 .body {
   display: flex;
   flex: 4;
-  padding-bottom: 8px;
+  padding-bottom: 0;
   padding-top: 0;
   flex-direction: column;
 
@@ -43,6 +43,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .content {
@@ -55,15 +56,15 @@
   border-image-width: 30px;
   border-image-repeat: round;
   border-image-outset: 0;
-  /* b09945 */
 }
 
 
 .footer {
-  flex: 4;
-}
-
-.footer-body {
+  height: 30px;
+  color: #b09945;
+  background-color: black;
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  
 }
