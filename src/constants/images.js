@@ -1,1 +1,1 @@
-export const mainImage = require('../assets/images/cover-pic.png');
+export const mainImage = require('../assets/images/cover-1.jpg');
