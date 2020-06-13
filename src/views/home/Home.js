@@ -30,6 +30,7 @@ const Dashboard = (props) => (
         </div>
       </div>
       <div className="body-right">
+        <div className="content">
         <div className="content-header">
           <h1 className="content-title">
             <span className="welcome-text">Welcome To</span>{' '}
@@ -39,12 +40,12 @@ const Dashboard = (props) => (
         <div className="content-body">
           <p className="content-p"></p>
         </div>
+        </div>
       </div>
     </div>
     <div className="footer">
       <div className="footer-body">
         <div className="footer-body-title-wrapper">
-          <h1 className="content-title">Listen Now</h1>
           <div className="icon-box">
             <div className="icon-wrapper">
               <FaSpotify size={30} />
