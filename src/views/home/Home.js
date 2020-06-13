@@ -40,23 +40,30 @@ const Dashboard = (props) => (
         <div className="content-body">
           <p className="content-p"></p>
         </div>
+        <div className="icon-box">
+            <div className="icon-wrapper">
+              <a href="https://music.apple.com/us/artist/ulto-pulto/1161366757">
+              <FaApple size={24} />
+              </a>
+            </div>
+            <div className="icon-wrapper">
+              <a href="https://open.spotify.com/artist/4dID0kQSdL2JCYw4lMM61e?si=1U1fRHO5RpCEYsvIFw9PFg">
+              <FaSpotify size={24} />
+              </a>
+            </div>
+            <div className="icon-wrapper">
+              <a href="https://www.amazon.com/Ulto-Pulto/dp/B01LYPXLK7">
+              <FaAmazon size={24} />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div className="footer">
       <div className="footer-body">
         <div className="footer-body-title-wrapper">
-          <div className="icon-box">
-            <div className="icon-wrapper">
-              <FaSpotify size={30} />
-            </div>
-            <div className="icon-wrapper">
-              <FaApple size={36} />
-            </div>
-            <div className="icon-wrapper">
-              <FaAmazon size={36} />
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
